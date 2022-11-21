@@ -1,6 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+@font-face {
+    font-family: "BoldMono";
+    src: local("Oxygen"), url(./assets/fonts/BLMelodyMono-Bold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "SemiBoldMono";
+    src: local("Oxygen"), url(./assets/fonts/BLMelodyMono-SemiBold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "blMelodyBook";
+    src: local("Oxygen"), url(./assets/fonts/BLMelody-Book.otf) format("truetype");
+}
+
+.bold-mono-text {
+  font-family: "BoldMono", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.semi-bold-mono-text {
+  font-family: "SemiBoldMono", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.blMelodyBook-text {
+  font-family: "blMelodyBook", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 .color-light-soft {
   color: #F0F5F9;
 }
