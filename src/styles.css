@@ -1,2 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.color-light-soft {
+  color: #F0F5F9;
+}
+
+.color-soft {
+  color: #C9D6DF;
+}
+
+.color-medium {
+  color: #52616B;
+}
+
+.color-dark {
+  color: #1E2022;
+}
+
+.color-dark-bg {
+    background-color: #1E2022;
+}
