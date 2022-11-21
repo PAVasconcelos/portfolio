@@ -18,5 +18,9 @@
 }
 
 .color-dark-bg {
-    background-color: #1E2022;
+  background-color: #1E2022;
+}
+
+html { 
+  background-color: #C9D6DF; 
 }
