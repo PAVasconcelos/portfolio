@@ -1,0 +1,13 @@
+.container {
+  max-width: 1400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.avatar {
+  border: 2px solid #1E2022;
+  border-radius: 50%;
+}
