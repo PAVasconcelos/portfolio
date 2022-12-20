@@ -4,8 +4,56 @@
 
 .navbar .navbar-toggler {
   border-color: rgb(82,97,107);
+  cursor: pointer;
+}
+
+.navbar .navbar-toggler:hover {
+  border-color: #ffffff;
+}
+
+.nav-color {
+  background: rgb(82,97,107);
+  background: radial-gradient(circle, rgba(82,97,107,1) 0%, rgba(30,32,34,1) 100%);
 }
 
 .nav-container {
   max-width: 1600px;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  font-family: Roboto-Medium;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 23px !important;
+  font-family: Roboto-Medium;
+  cursor: pointer;
+}
+
+.navbar-brand:hover { 
+  color: #ffffff;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-brand {
+    font-size: 19px !important;
+    font-family: Roboto-Medium;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .navbar-brand {
+    font-size: 15px !important;
+    font-family: Roboto-Medium;
+  }
 }

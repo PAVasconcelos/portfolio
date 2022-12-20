@@ -8,6 +8,26 @@
 }
 
 .avatar {
-  border: 2px solid #1E2022;
+  border: 2px solid #404c53;
   border-radius: 50%;
+}
+
+.about-text {
+  padding-top: 10%;
+  font-family: Roboto-Medium;
+}
+
+.container-title {
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1125px) {
+  .text-col {
+    max-width: 500px;
+  }
+
+  .avatar-col {
+    max-width: 650px;
+  }
 }

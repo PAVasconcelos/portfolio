@@ -1,53 +1,96 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 @font-face {
-    font-family: "BoldMono";
-    src: local("Oxygen"), url(./assets/fonts/BLMelodyMono-Bold.otf) format("truetype");
+  font-family: "Roboto-Black";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Black.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "SemiBoldMono";
-    src: local("Oxygen"), url(./assets/fonts/BLMelodyMono-SemiBold.otf) format("truetype");
+  font-family: "Roboto-BlackItalic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-BlackItalic.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "blMelodyBook";
-    src: local("Oxygen"), url(./assets/fonts/BLMelody-Book.otf) format("truetype");
+  font-family: "Roboto-Bold";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: local("Oxygen"), url(./assets/fonts/Roboto-ThinItalic.ttf) format("truetype");
 }
 
 h2 {
-  font-family: blMelodyBook;
+  font-size: 25px;
+  font-family: Roboto-Bold;
+  color: #404c53 !important;
 }
 
 p {
-  font-family: blMelodyBook;
+  font-family: Roboto-Regular;
 }
 
 input {
-  font-family: blMelodyBook;
+  font-family: Roboto-Regular;
 }
 
 label {
-  font-family: blMelodyBook;
+  font-family: Roboto-Medium;
 }
 
 html { 
   background-color: #C9D6DF;
 }
 
-.bold-mono-text {
+.roboto-black {
   font-family: "BoldMono", Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
-.semi-bold-mono-text {
-  font-family: "SemiBoldMono", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-.blMelodyBook-text {
-  font-family: "blMelodyBook", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+.general-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .color-light-soft {
@@ -72,4 +115,12 @@ html {
 
 .color-light-soft-bg {
   background-color: #F0F5F9;
+}
+
+@media only screen and (max-width: 1450px) {
+  .general-container {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }

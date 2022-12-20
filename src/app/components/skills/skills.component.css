@@ -5,6 +5,7 @@
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
+  margin-bottom: 15px;
   border-radius: 10px;
 }
 
@@ -15,4 +16,9 @@
 .icons {
   width: 50px;
   height: 50px;
+}
+
+.skills-text {
+  font-family: Roboto-Medium;
+  font-size: 13px;
 }

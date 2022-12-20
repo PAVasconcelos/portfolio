@@ -1,13 +1,22 @@
 .footer {
-  background-color: #1E2022;
+  background: rgb(82,97,107);
+  background: radial-gradient(circle, rgba(82,97,107,1) 0%, rgba(30,32,34,1) 100%);
   height: 50px;
+
 }
 
 .footer-text {
-  padding-top: 10px;
+  font-size: 15px;
+  padding-top: 15px;
   color: #F0F5F9;
 }
 
 .peace-icon {
   color: #F0F5F9;
+}
+
+@media only screen and (max-width: 380px) {
+  .footer-text {
+    font-size: 13px;
+  } 
 }

@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paulo Vasconcelos Portfolio</title>
-</head>
-<body>
-  <app-nav-bar></app-nav-bar>
-  <app-about class="p-2"></app-about>
-  <app-time-line class="p-2"></app-time-line>
-  <app-skills class="p-2"></app-skills>
-  <app-find-me class="p-2"></app-find-me>
-  <app-footer></app-footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Vasconcelos Portfolio</title>
+  </head>
+  <body>
+    <!-- App-nav-bar sends data to the parent app-component by output eventEmitter -->
+    <app-nav-bar 
+      (navBarSelectedItemEvent)="scrollToSection($event)"
+      (isNavBarOpenedEvent)="setIsNavBarOpened($event)">
+    </app-nav-bar>
+    <app-about class="animation"></app-about>
+    <app-time-line class="animation"></app-time-line>
+    <app-skills class="animation"></app-skills>
+    <app-find-me class="animation"></app-find-me>
+    <app-footer></app-footer>
+  </body>
 </html>

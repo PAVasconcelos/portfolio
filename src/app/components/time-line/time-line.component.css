@@ -5,6 +5,7 @@
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
+  margin-bottom: 15px;
   border-radius: 10px;
 }
 
@@ -37,8 +38,7 @@ body {
 
 /* Outer Layer with the timeline border */
 .outer {
-  border-left: 2px solid #333;
-  /* make a breackpoint for mobile */
+  border-left: 3px solid #142d3a;
   margin-left: 8%;
 }
 
@@ -47,10 +47,11 @@ body {
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
-  background: #333;
-  color: gray;
+  color: #ffffff ;
   border-radius: 8px;
   max-width: 400px;
+  background: #282e33;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Information about the timeline */
@@ -62,8 +63,9 @@ body {
 
 /* Title of the card */
 .title {
-  color: orangered;
+  color: #F0F5F9;
   position: relative;
+  font-size: 19px;
 }
 
 /* Timeline dot  */
@@ -72,8 +74,23 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: #F0F5F9;
   border-radius: 999px;
-  left: -39px;
-  border: 3px solid orangered;
+  left: -37.8px;
+  border: 3px solid #142d3a;
+}
+
+.skills-list {
+  padding-left: 13px;
+}
+
+.date {
+  text-align: right;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 670px) {
+  .outer {
+    margin-left: 1%;
+  }
 }
