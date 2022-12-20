@@ -1,0 +1,53 @@
+.container {
+  max-width: 1400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.container-title {
+  padding-bottom: 25px;
+}
+
+.btn-linkedin {
+  background: #0E76A8;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+}
+
+.btn-linkedin:active, .btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}
+
+.email-input {
+  border-radius: 5px;
+  width: 280px;
+  border: 1px solid #142d3a;
+}
+
+.copy-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #142d3a;
+}
+
+@media only screen and (max-width: 529px) {
+  .email-input {
+    width: 200px;
+    font-size: 13px;
+  }
+
+  .copy-icon {
+  font-size: 16px;
+    
+  }
+}
