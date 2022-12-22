@@ -29,26 +29,20 @@ export class AppComponent {
   }
 
   public scrollToSection(section: string): void {
-    if (section === "About" && this.isNavBarOpened == false && this.getScreenWidth > 575) {
+    if (section === "About") {
       scrollTo(0, 70);
     }
-    else if (section === "About" && this.isNavBarOpened == true) {
-      scrollTo(0, 200);
-    }
-    else if (section === "About" && this.isNavBarOpened == true && this.getScreenWidth < 575) {
-      scrollTo(0, 200);
-    }
-    else if (section === "Career" && this.isNavBarOpened == false && this.getScreenWidth > 575) {
+    else if (section === "Career" && this.getScreenWidth > 575) {
       scrollTo(0, 410);
     }
-    else if (section === "Career" && this.isNavBarOpened == true && this.getScreenWidth > 575) {
+    else if (section === "Career" && this.getScreenWidth > 575) {
       scrollTo(0, 585);
     }
-    else if (section === "Career" && this.isNavBarOpened == true && this.getScreenWidth < 575 && this.getScreenWidth > 391) {
-      scrollTo(0, 710);
+    else if (section === "Career" && this.getScreenWidth < 575 && this.getScreenWidth > 391) {
+      scrollTo(0, 530);
     }
-    else if (section === "Career" && this.isNavBarOpened == true && this.getScreenWidth < 390) {
-      scrollTo(0, 780);
+    else if (section === "Career" && this.getScreenWidth < 390) {
+      scrollTo(0, 590);
     }
     else if (section === "Skills" || section === "FindMe") {
       scrollTo(0, 99999);

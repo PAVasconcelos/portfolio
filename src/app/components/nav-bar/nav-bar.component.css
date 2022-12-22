@@ -50,10 +50,3 @@
     font-family: Roboto-Medium;
   }
 }
-
-@media only screen and (max-width: 315px) {
-  .navbar-brand {
-    font-size: 15px !important;
-    font-family: Roboto-Medium;
-  }
-}

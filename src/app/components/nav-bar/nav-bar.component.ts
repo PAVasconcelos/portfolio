@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2, ViewChild, ViewChildDecorator } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
 
 @Component({
@@ -7,6 +7,9 @@ import { Output, EventEmitter } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
+
+  // Having control over the DOM element
+  @ViewChild('collapsedBar') collapsedBarElement: ElementRef;
 
   // @Output to send data to parent component.
   @Output() navBarSelectedItemEvent = new EventEmitter<string>();
@@ -20,6 +23,7 @@ export class NavBarComponent implements OnInit {
 
   public toParentSelectedNavBar(value: string): void {
     this.navBarSelectedItemEvent.emit(value);
+    this.isNavBarOpened = false;
   }
 
   public toParentNavBarOpened(): void {

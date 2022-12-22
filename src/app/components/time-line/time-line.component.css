@@ -7,6 +7,12 @@
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 10px;
+  font-family: Roboto-Medium !important;
+}
+
+li {
+  font-family: Roboto-Regular !important;
+  font-size: 15px;
 }
 
 .container-title {
@@ -16,7 +22,6 @@
 :root {
   --primary-color: #fff; /* try #212121 also for dark mode */
   --background-color: #212121;
-  --font: sans-serif;
 }
 
 * {
@@ -26,7 +31,6 @@
 
 body {
   background: var(--background-color);
-  font-family: var(--font);
   display: flex;
   justify-content: center;
 }
@@ -66,6 +70,7 @@ body {
   color: #F0F5F9;
   position: relative;
   font-size: 19px;
+  text-transform: bold;
 }
 
 /* Timeline dot  */
