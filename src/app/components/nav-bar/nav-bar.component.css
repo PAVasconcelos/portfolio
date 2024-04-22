@@ -1,9 +1,9 @@
 .navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(201,214,223, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175, 175, 175)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar .navbar-toggler {
-  border-color: rgb(82,97,107);
+  border-color: rgb(175, 175, 175);
   cursor: pointer;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .nav-color {
-  background: rgb(82,97,107);
-  background: radial-gradient(circle, rgba(82,97,107,1) 0%, rgba(30,32,34,1) 100%);
+  background: rgb(56, 56, 56);
+  background: radial-gradient(circle, rgb(133, 133, 133) 0%, rgb(0, 0, 0) 100%);
 }
 
 .nav-container {
@@ -42,6 +42,10 @@
 
 .nav-item:hover {
   cursor: pointer;
+}
+
+.navbar {
+  border-bottom: 3px solid rgb(124, 124, 124);
 }
 
 @media only screen and (max-width: 575px) {

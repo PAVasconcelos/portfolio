@@ -1,6 +1,6 @@
 body { 
-  background: rgb(154,172,185);
-  background: radial-gradient(circle, rgba(154,172,185,1) 0%, rgba(164,181,193,1) 38%, rgba(163,180,192,1) 38%, rgba(164,181,193,1) 43%, rgba(240,245,249,1) 100%);
+  background: rgb(242,243,243);
+  background: radial-gradient(circle, rgba(242,243,243,1) 37%, rgba(222,222,222,1) 100%);
 }
 
 .animation {
