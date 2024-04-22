@@ -14,7 +14,7 @@
 }
 
 .btn-linkedin {
-  background: #0E76A8;
+  background: #585858;
   border-radius: 5px;
   color: #fff;
 }
@@ -24,7 +24,7 @@
 }
 
 .btn-linkedin:active, .btn-linkedin:hover {
-  background: #084461;
+  background: #2b2b2b;
   color: #fff;
 }
 

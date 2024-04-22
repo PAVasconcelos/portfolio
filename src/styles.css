@@ -63,7 +63,7 @@
 h2 {
   font-size: 25px;
   font-family: Roboto-Bold;
-  color: #404c53 !important;
+  color: #525252 !important;
 }
 
 p {
@@ -79,7 +79,7 @@ label {
 }
 
 html { 
-  background-color: #C9D6DF;
+  background-color: #e0e0e0;
 }
 
 .roboto-black {
@@ -94,27 +94,27 @@ html {
 }
 
 .color-light-soft {
-  color: #F0F5F9;
+  color: #ececec;
 }
 
 .color-soft {
-  color: #C9D6DF;
+  color: #f5f5f5;
 }
 
 .color-medium {
-  color: #52616B;
+  color: #686868;
 }
 
 .color-dark {
-  color: #1E2022;
+  color: #222222;
 }
 
 .color-dark-bg {
-  background-color: #1E2022;
+  background-color: #222222;
 }
 
 .color-light-soft-bg {
-  background-color: #fcfeff;
+  background-color: #fafafa;
 }
 
 @media only screen and (max-width: 1450px) {
